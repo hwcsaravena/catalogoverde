@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background-color: #242430;
+    background-color: #21213a;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #7270EC;
+    background-color: #2ae688;
 }
 
 .menu {
@@ -72,7 +72,7 @@ z-index: 1000;
 
 .logo {
     font-size: 25px;
-    color: #7270EC;
+    color: #2ae688;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -90,7 +90,7 @@ z-index: 1000;
 }
 
 .menu .navbar ul li a:hover {
-    color: #7270EC;
+    color: #2ae688;
 }
 
 #menu {
@@ -106,8 +106,20 @@ z-index: 1000;
     display: none;
 }
 
+.submenu {
+    position: relative;
+}
+
+.submenu img {
+    width: 50px;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
 .header-content {
-    padding: 100px 0 0px 0;
+    padding: 100px 0 100px 0;
 }
 
 .header-info {
@@ -147,12 +159,12 @@ z-index: 1000;
 
 .price-2 {
     font-size: 30px;
-    color: #7270EC !important;
+    color: #2ae688 !important;
 }
 
 .btn-1 {
     display: inline-block;
-    background-color: #7270EC;
+    background-color: #2ae688;
     color: #feffff;
     font-size: 16px;
     padding: 10px 25px;
@@ -161,7 +173,7 @@ z-index: 1000;
 }
 
 .btn-1:hover {
-    background-color: #6C69F9;
+    background-color: #129252;
 }
 
 hr {
@@ -169,7 +181,7 @@ hr {
 }
 
 .promos {
-    padding: 10px 0;
+    padding: 10px 0 10px 0;
     text-align: center;
 }
 
@@ -220,13 +232,13 @@ hr {
 
 
 .products {
-    padding: 50px 0;
+    padding: 10px;
 }
 
 .products h2 {
     font-size: 50px;
     color: #feffff;
-    margin-bottom: 70px;
+    margin-bottom: 2px;
 }
 
 .product {
@@ -253,7 +265,7 @@ hr {
 }
 
 .precio {
-    color: #7270EC !important;
+    color: #2ae688 !important;
 }
 
 .btn-3 {
@@ -261,12 +273,12 @@ hr {
     padding: 10px 25px;
     font-size: 14px;
     color: #feffff;
-    border: 1px solid #7270EC;
+    border: 1px solid #2ae688;
     border-radius: 25px;
     margin-top: 15px;
 }
 .btn-3:hover {
-    background-color: #7270EC;
+    background-color: #129252;
 }
 
 .buttons {
@@ -284,7 +296,7 @@ hr {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: #314652;
+    background-color: #129252;
     color: #f1f1f1;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgb(0, 0, .5);
@@ -362,11 +374,11 @@ hr {
     }
 
     .mySwiper-1 {
-        width: 300px;
+        width: 800;
     }
 
     .swiper-slide {
-        padding: 0 30px 50 px 30px;
+        padding: 0 30px 50px 30px;
     }
 
     .header-content {
@@ -392,7 +404,7 @@ hr {
     }
 
     .header-img img {
-        width: 200px;
+        width: 300px;
     }
 
     .prices {
@@ -405,11 +417,11 @@ hr {
     }
 
     .btn-1 {
-        margin: 20px 0;
+        margin: 50px 0;
     }
 
     .promos {
-        padding: 30px;
+        padding: 0;
     }
 
     .promos h2 {
@@ -425,7 +437,7 @@ hr {
     .categorie {
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 20px 0px 20px 0px;
     }
 
     .categorie-1 {
@@ -470,6 +482,65 @@ hr {
         width: 100%;
     }
 
+    @media(max-width:750px) {
 
+        .mySwiper-1 {
+            width: 700px;
+        }
+    }
 
+    @media(max-width:700px) {
+
+        .mySwiper-1 {
+            width: 650px;
+        }
+    }
+
+    @media(max-width:650px) {
+
+        .mySwiper-1 {
+            width: 600px;
+        }
+    }
+
+    @media(max-width:600px) {
+
+        .mySwiper-1 {
+            width: 550px;
+        }
+    }
+
+    @media(max-width:550px) {
+
+        .mySwiper-1 {
+            width: 500px;
+        }
+    }
+
+    @media(max-width:500px) {
+
+        .mySwiper-1 {
+            width: 450px;
+        }
+    }
+
+    @media(max-width:450px) {
+
+        .mySwiper-1 {
+            width: 400px;
+        }
+    }
+
+    @media(max-width:400px) {
+
+        .mySwiper-1 {
+            width: 350px;
+        }
+    }
+    @media(max-width:350px) {
+
+        .mySwiper-1 {
+            width: 300px;
+        }
+    }
 }
