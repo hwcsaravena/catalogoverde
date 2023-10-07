@@ -408,9 +408,9 @@ hr {
     }
 
     .prices {
-        flex-direction: column;
+        flex-direction: row;
+        margin-left: 40px;
     }
-
 
     .price-1 {
         margin: 0;
