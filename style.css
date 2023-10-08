@@ -147,8 +147,6 @@ z-index: 1000;
 
 .prices {
     display: flex;
-    margin: 20px 0;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -352,8 +350,8 @@ hr {
         position: absolute;
         top: 100%;
         left: 0;
-        right: 0;
-        background-color: #6C69F9;
+        right: 80;
+        background-color: #343363;
         display: none;
     }
 
@@ -411,6 +409,7 @@ hr {
 
     .prices {
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .price-1 {
